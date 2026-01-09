@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAQMonitor.WinForms", "DAQMonitor.WinForms\DAQMonitor.WinForms.csproj", "{362E4C82-D132-472F-B45B-0FB0203AAC5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{362E4C82-D132-472F-B45B-0FB0203AAC5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{362E4C82-D132-472F-B45B-0FB0203AAC5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{362E4C82-D132-472F-B45B-0FB0203AAC5C}.Debug|x64.ActiveCfg = Debug|x64
+		{362E4C82-D132-472F-B45B-0FB0203AAC5C}.Debug|x64.Build.0 = Debug|x64
+		{362E4C82-D132-472F-B45B-0FB0203AAC5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{362E4C82-D132-472F-B45B-0FB0203AAC5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{362E4C82-D132-472F-B45B-0FB0203AAC5C}.Release|x64.ActiveCfg = Release|x64
+		{362E4C82-D132-472F-B45B-0FB0203AAC5C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AFAB167-C8DC-4B03-AD12-8C96E33DBED5}
+	EndGlobalSection
+EndGlobal
