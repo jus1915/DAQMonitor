@@ -14,7 +14,7 @@ namespace DAQMonitor.Core.Models
     {
         public int Sequence { get; }
         public int ChannelCount { get; }
-        public int SamplePerChannel { get; }
+        public int SamplesPerChannel { get; }
         public float[][] Data { get; }
 
         public Frame(int sequence, float[][] data)
@@ -22,7 +22,7 @@ namespace DAQMonitor.Core.Models
             Sequence = sequence;
             Data = data;
             ChannelCount = data.Length;
-            SamplePerChannel = data[0].Length;
+            SamplesPerChannel = data[0].Length;
         }
     }
 }
